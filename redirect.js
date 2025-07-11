@@ -1,25 +1,21 @@
-const code = window.location.pathname.replace('/', '').trim().toUpperCase();
-
-// Giao diện cảnh báo hiển thị trên toàn trang
 document.body.innerHTML = `
   <style>
     body {
-      background: #000;
+      background-color: #000;
       color: #fff;
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
       text-align: center;
       padding: 100px 20px;
     }
     h1 {
-      font-size: 42px;
+      font-size: 40px;
       margin-bottom: 20px;
     }
     p {
-      font-size: 24px;
+      font-size: 20px;
       color: #ccc;
     }
   </style>
   <h1>🚫 Vui lòng mua bản quyền ShoppyCam</h1>
-  <p>Hệ thống này chỉ hoạt động khi bạn đã kích hoạt bản quyền.</p>
+  <p>Hệ thống redirect mã đơn chỉ hoạt động với tài khoản hợp lệ.</p>
 `;
-
